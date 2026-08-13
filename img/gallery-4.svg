@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 426" role="img" aria-label="Palco com iluminação especial">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10141c"/>
+      <stop offset="1" stop-color="#1c2330"/>
+    </linearGradient>
+    <linearGradient id="stageG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e3a2f"/>
+      <stop offset="1" stop-color="#1f2620"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="426" fill="url(#bg4)"/>
+
+  <!-- light beams -->
+  <g opacity="0.4">
+    <polygon points="320,120 60,426 210,426" fill="#7a4dd6"/>
+    <polygon points="320,120 430,426 580,426" fill="#2ea8d0"/>
+    <polygon points="320,120 300,426 380,426" fill="#f2a65e"/>
+  </g>
+
+  <!-- stage floor -->
+  <rect x="0" y="340" width="640" height="86" fill="url(#stageG)"/>
+  <rect x="0" y="340" width="640" height="5" fill="#d6ab5e" opacity="0.7"/>
+
+  <!-- DJ booth -->
+  <rect x="230" y="240" width="180" height="100" rx="10" fill="#121826"/>
+  <rect x="230" y="232" width="180" height="12" rx="6" fill="#d6ab5e"/>
+  <g>
+    <rect x="250" y="270" width="60" height="16" rx="4" fill="#213049"/>
+    <circle cx="330" cy="278" r="20" fill="#182238" stroke="#d6ab5e" stroke-width="2"/>
+    <circle cx="330" cy="278" r="6" fill="#d6ab5e"/>
+    <rect x="368" y="268" width="28" height="22" rx="3" fill="#213049"/>
+    <line x1="376" y1="272" x2="376" y2="286" stroke="#58b2a0" stroke-width="2"/>
+    <line x1="388" y1="272" x2="388" y2="286" stroke="#e35d4f" stroke-width="2"/>
+  </g>
+  <rect x="255" y="302" width="130" height="22" fill="#213049"/>
+
+  <!-- speaker stacks -->
+  <g fill="#0d1119" stroke="#1c2330" stroke-width="2">
+    <rect x="90" y="300" width="52" height="86" rx="6"/>
+    <circle cx="116" cy="326" r="14" fill="#1a2233"/>
+    <circle cx="116" cy="356" r="10" fill="#1a2233"/>
+    <rect x="500" y="300" width="52" height="86" rx="6"/>
+    <circle cx="526" cy="326" r="14" fill="#1a2233"/>
+    <circle cx="526" cy="356" r="10" fill="#1a2233"/>
+  </g>
+
+  <!-- crowd silhouettes -->
+  <g fill="#0c1020" opacity="0.9">
+    <circle cx="60" cy="310" r="16"/>
+    <circle cx="130" cy="290" r="16"/>
+    <circle cx="200" cy="312" r="16"/>
+    <circle cx="350" cy="300" r="18"/>
+    <circle cx="420" cy="314" r="16"/>
+    <circle cx="480" cy="296" r="16"/>
+    <circle cx="560" cy="308" r="18"/>
+    <circle cx="620" cy="304" r="15"/>
+  </g>
+
+  <!-- ceiling spots -->
+  <g fill="#ffffff" opacity="0.85">
+    <rect x="286" y="10" width="8" height="14" rx="3"/>
+    <rect x="400" y="10" width="8" height="14" rx="3"/>
+    <rect x="514" y="10" width="8" height="14" rx="3"/>
+    <rect x="172" y="10" width="8" height="14" rx="3"/>
+  </g>
+
+  <!-- haze glow center -->
+  <ellipse cx="320" cy="330" rx="180" ry="26" fill="#58b2a0" opacity="0.18"/>
+  <ellipse cx="320" cy="330" rx="120" ry="16" fill="#f2a65e" opacity="0.14"/>
+</svg>
