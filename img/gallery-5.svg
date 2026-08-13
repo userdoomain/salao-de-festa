@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 426" role="img" aria-label="Área externa com vista ao anoitecer">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3a5e"/>
+      <stop offset="0.5" stop-color="#7c4a6e"/>
+      <stop offset="1" stop-color="#e8a86a"/>
+    </linearGradient>
+    <radialGradient id="moon5" cx="0.4" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#fff6dd"/>
+      <stop offset="1" stop-color="#f2d9a0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="426" fill="url(#sky5)"/>
+
+  <!-- stars -->
+  <g fill="#fff3d0" opacity="0.8">
+    <circle cx="60" cy="50" r="2"/>
+    <circle cx="150" cy="90" r="2"/>
+    <circle cx="240" cy="40" r="3"/>
+    <circle cx="330" cy="80" r="2"/>
+    <circle cx="460" cy="36" r="2"/>
+    <circle cx="560" cy="70" r="3"/>
+    <circle cx="600" cy="130" r="2"/>
+    <circle cx="90" cy="140" r="2"/>
+  </g>
+
+  <!-- moon -->
+  <circle cx="520" cy="90" r="38" fill="url(#moon5)"/>
+  <circle cx="532" cy="82" r="30" fill="#e8a86a" opacity="0.35"/>
+
+  <!-- garden -->
+  <rect x="0" y="300" width="640" height="126" fill="#243f2c"/>
+  <rect x="0" y="300" width="640" height="8" fill="#1a2f20"/>
+
+  <!-- string lights -->
+  <path d="M0 220 q100 60 200 0 q100 -60 200 0 q100 60 200 0" fill="none" stroke="#d6ab5e" stroke-width="2"/>
+  <g fill="#ffe9b8">
+    <circle cx="50" cy="238" r="7"/>
+    <circle cx="150" cy="262" r="7"/>
+    <circle cx="250" cy="238" r="7"/>
+    <circle cx="350" cy="214" r="7"/>
+    <circle cx="450" cy="238" r="7"/>
+    <circle cx="550" cy="262" r="7"/>
+  </g>
+
+  <!-- pergola posts -->
+  <rect x="40" y="120" width="12" height="190" fill="#3a2a18"/>
+  <rect x="588" y="120" width="12" height="190" fill="#3a2a18"/>
+  <rect x="0" y="112" width="640" height="14" rx="6" fill="#4a3520"/>
+
+  <!-- tables outside -->
+  <g>
+    <rect x="180" y="300" width="120" height="10" rx="5" fill="#d9b98a"/>
+    <rect x="140" y="308" width="10" height="14" fill="#8a6a3f"/>
+    <rect x="215" y="308" width="10" height="14" fill="#8a6a3f"/>
+    <rect x="290" y="308" width="10" height="14" fill="#8a6a3f"/>
+  </g>
+  <g>
+    <rect x="380" y="300" width="120" height="10" rx="5" fill="#d9b98a"/>
+    <rect x="406" y="310" width="10" height="14" fill="#8a6a3f"/>
+    <rect x="415" y="310" width="10" height="14" fill="#8a6a3f"/>
+    <rect x="490" y="310" width="10" height="14" fill="#8a6a3f"/>
+  </g>
+
+  <!-- bushes -->
+  <g fill="#1f3d2c">
+    <circle cx="110" cy="330" r="26"/>
+    <circle cx="150" cy="338" r="20"/>
+    <circle cx="560" cy="332" r="24"/>
+    <circle cx="596" cy="340" r="18"/>
+  </g>
+
+  <!-- fireflies -->
+  <g fill="#f2e08a" opacity="0.9">
+    <circle cx="200" cy="280" r="3"/>
+    <circle cx="440" cy="270" r="3"/>
+    <circle cx="330" cy="290" r="2"/>
+    <circle cx="520" cy="290" r="3"/>
+  </g>
+</svg>
