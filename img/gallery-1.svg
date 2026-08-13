@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 426" role="img" aria-label="Salão principal pronto para receber">
+  <defs>
+    <linearGradient id="w1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f3d2c"/>
+      <stop offset="1" stop-color="#2a4c37"/>
+    </linearGradient>
+    <linearGradient id="f1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a6a3c"/>
+      <stop offset="1" stop-color="#6b4526"/>
+    </linearGradient>
+    <radialGradient id="gl1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9b8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffe9b8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="426" fill="url(#w1)"/>
+  <rect x="0" y="300" width="640" height="126" fill="url(#f1)"/>
+  <line x1="0" y1="300" x2="640" y2="300" stroke="#12301f" stroke-width="5"/>
+
+  <!-- windows -->
+  <path d="M40 300 V70 a60 60 0 0 1 120 0 V300 Z" fill="#7c4a6e" opacity="0.35" stroke="#f0e3c8" stroke-opacity="0.22" stroke-width="4"/>
+  <path d="M200 300 V70 a60 60 0 0 1 120 0 V300 Z" fill="#7c4a6e" opacity="0.35" stroke="#f0e3c8" stroke-opacity="0.22" stroke-width="4"/>
+  <path d="M360 300 V70 a60 60 0 0 1 120 0 V300 Z" fill="#7c4a6e" opacity="0.35" stroke="#f0e3c8" stroke-opacity="0.22" stroke-width="4"/>
+  <path d="M520 300 V70 a60 60 0 0 1 120 0 V300 Z" fill="#7c4a6e" opacity="0.35" stroke="#f0e3c8" stroke-opacity="0.22" stroke-width="4"/>
+
+  <!-- chandelier -->
+  <circle cx="320" cy="60" r="120" fill="url(#gl1)"/>
+  <g stroke="#d6ab5e" stroke-width="3" fill="none">
+    <line x1="320" y1="0" x2="320" y2="30"/>
+    <path d="M290 44 a30 15 0 0 0 60 0" stroke-width="4"/>
+    <path d="M292 48 l8 34 M320 48 v38 M348 48 l-8 34 M286 60 l6 14 M354 60 l-6 14"/>
+    <circle cx="292" cy="90" r="4" fill="#ffe9b8" stroke="none"/>
+    <circle cx="320" cy="94" r="4" fill="#ffe9b8" stroke="none"/>
+    <circle cx="348" cy="90" r="4" fill="#ffe9b8" stroke="none"/>
+  </g>
+
+  <!-- tables -->
+  <g>
+    <path d="M90 300 h160 v18 h-160 z" fill="#4a2f1a"/>
+    <g fill="#d6ab5e">
+      <rect x="130" y="272" width="8" height="28" rx="3"/>
+      <ellipse cx="134" cy="270" rx="12" ry="6" fill="none" stroke="#d6ab5e" stroke-width="2.5"/>
+      <rect x="220" y="272" width="8" height="28" rx="3"/>
+      <ellipse cx="224" cy="270" rx="12" ry="6" fill="none" stroke="#d6ab5e" stroke-width="2.5"/>
+    </g>
+  </g>
+  <g>
+    <path d="M400 300 h160 v18 h-160 z" fill="#4a2f1a"/>
+    <rect x="440" y="272" width="8" height="28" rx="3" fill="#d6ab5e"/>
+    <ellipse cx="444" cy="270" rx="12" ry="6" fill="none" stroke="#d6ab5e" stroke-width="2.5"/>
+    <rect x="530" y="272" width="8" height="28" rx="3" fill="#d6ab5e"/>
+    <ellipse cx="534" cy="270" rx="12" ry="6" fill="none" stroke="#d6ab5e" stroke-width="2.5"/>
+  </g>
+
+  <!-- balloons -->
+  <ellipse cx="180" cy="200" rx="26" ry="32" fill="#a4863f"/>
+  <path d="M180 232 q6 14 0 24" stroke="#a4863f" stroke-width="3" fill="none"/>
+  <ellipse cx="470" cy="170" rx="26" ry="32" fill="#e8e0c8"/>
+  <path d="M470 202 q6 14 0 24" stroke="#e8e0c8" stroke-width="3" fill="none"/>
+
+  <!-- bokeh -->
+  <g fill="#ffe9b8" opacity="0.6">
+    <circle cx="90" cy="140" r="4"/>
+    <circle cx="560" cy="120" r="4"/>
+    <circle cx="600" cy="200" r="3"/>
+    <circle cx="60" cy="220" r="3"/>
+  </g>
+</svg>
