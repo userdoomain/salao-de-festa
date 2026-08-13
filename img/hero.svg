@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Salão de festas decorado ao anoitecer">
+  <defs>
+    <linearGradient id="wallG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c4a38"/>
+      <stop offset="1" stop-color="#1f3d2c"/>
+    </linearGradient>
+    <linearGradient id="floorG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5a33"/>
+      <stop offset="1" stop-color="#5f3c22"/>
+    </linearGradient>
+    <linearGradient id="winG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7d9a0"/>
+      <stop offset="0.55" stop-color="#e8a86a"/>
+      <stop offset="1" stop-color="#7c4a6e"/>
+    </linearGradient>
+    <radialGradient id="glowG" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9b8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffe9b8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="chandG" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3d0" stop-opacity="1"/>
+      <stop offset="1" stop-color="#d6ab5e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1600" height="1000" fill="#162e21"/>
+
+  <!-- back wall -->
+  <rect x="0" y="200" width="1600" height="800" fill="url(#wallG)"/>
+  <rect x="0" y="640" width="1600" height="360" fill="url(#floorG)"/>
+
+  <!-- wall line -->
+  <line x1="0" y1="640" x2="1600" y2="640" stroke="#12301f" stroke-width="6"/>
+
+  <!-- arches / windows -->
+  <g>
+    <path d="M120 640 V360 a160 160 0 0 1 320 0 V640 Z" fill="url(#winG)"/>
+    <path d="M120 640 V360 a160 160 0 0 1 320 0 V640 Z" fill="none" stroke="#f0e3c8" stroke-opacity="0.25" stroke-width="6"/>
+    <line x1="280" y1="460" x2="280" y2="640" stroke="#f0e3c8" stroke-opacity="0.16" stroke-width="4"/>
+    <path d="M1160 640 V360 a160 160 0 0 1 320 0 V640 Z" fill="url(#winG)"/>
+    <path d="M1160 640 V360 a160 160 0 0 1 320 0 V640 Z" fill="none" stroke="#f0e3c8" stroke-opacity="0.25" stroke-width="6"/>
+    <line x1="1320" y1="460" x2="1320" y2="640" stroke="#f0e3c8" stroke-opacity="0.16" stroke-width="4"/>
+  </g>
+
+  <!-- chandelier glow -->
+  <circle cx="800" cy="170" r="240" fill="url(#glowG)">
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- chandelier -->
+  <g stroke="#d6ab5e" stroke-width="3" fill="none">
+    <line x1="800" y1="0" x2="800" y2="88"/>
+    <path d="M740 110 a60 30 0 0 0 120 0" stroke-width="5"/>
+    <path d="M744 120 l14 120 M800 120 v130 M856 120 l-14 120 M722 124 l8 116 M878 124 l-8 116"/>
+    <circle cx="740" cy="250" r="6" fill="#ffe9b8" stroke="none"/>
+    <circle cx="800" cy="260" r="6" fill="#ffe9b8" stroke="none"/>
+    <circle cx="860" cy="250" r="6" fill="#ffe9b8" stroke="none"/>
+    <circle cx="730" cy="234" r="3" fill="#fff3d0" stroke="none"/>
+    <circle cx="870" cy="234" r="3" fill="#fff3d0" stroke="none"/>
+    <circle cx="800" cy="100" r="8" stroke="#b98a3d" stroke-width="4"/>
+  </g>
+  <circle cx="800" cy="180" r="150" fill="url(#chandG)"/>
+
+  <!-- side pillars -->
+  <rect x="470" y="140" width="26" height="500" rx="8" fill="#243f30"/>
+  <rect x="1104" y="140" width="26" height="500" rx="8" fill="#243f30"/>
+  <ellipse cx="483" cy="140" rx="22" ry="10" fill="#2e533f"/>
+  <ellipse cx="1117" cy="140" rx="22" ry="10" fill="#2e533f"/>
+
+  <!-- long table -->
+  <g>
+    <path d="M560 640 h480 v34 h-480 z" fill="#4a2f1a"/>
+    <path d="M560 640 h480 v6 h-480 z" fill="#5f3c22"/>
+    <g fill="#b98a3d">
+      <g>
+        <rect x="590" y="600" width="10" height="40" rx="3"/>
+        <ellipse cx="595" cy="598" rx="16" ry="8" fill="none" stroke="#d6ab5e" stroke-width="3"/>
+      </g>
+      <g>
+        <rect x="740" y="600" width="10" height="40" rx="3"/>
+        <ellipse cx="745" cy="598" rx="16" ry="8" fill="none" stroke="#d6ab5e" stroke-width="3"/>
+      </g>
+      <g>
+        <rect x="890" y="600" width="10" height="40" rx="3"/>
+        <ellipse cx="895" cy="598" rx="16" ry="8" fill="none" stroke="#d6ab5e" stroke-width="3"/>
+      </g>
+      <g>
+        <rect x="1040" y="600" width="10" height="40" rx="3"/>
+        <ellipse cx="1045" cy="598" rx="16" ry="8" fill="none" stroke="#d6ab5e" stroke-width="3"/>
+      </g>
+    </g>
+    <ellipse cx="800" cy="612" rx="130" ry="7" fill="none" stroke="#f7f3ec" stroke-opacity="0.35" stroke-width="3"/>
+  </g>
+
+  <!-- round tables -->
+  <g>
+    <circle cx="330" cy="800" r="90" fill="#f2ead9" opacity="0.4"/>
+    <path d="M240 800 a90 90 0 0 1 180 0 Z" fill="#f2ead9"/>
+    <path d="M240 800 a90 90 0 0 0 180 0 Z" fill="#e3d6bc"/>
+    <line x1="258" y1="806" x2="402" y2="806" stroke="#c9b98f" stroke-width="2"/>
+    <rect x="330" y="700" width="8" height="100" fill="#5f3c22"/>
+    <circle cx="330" cy="700" r="20" fill="none" stroke="#d6ab5e" stroke-width="4"/>
+  </g>
+  <g>
+    <circle cx="1270" cy="800" r="74" fill="#f2ead2"/>
+    <path d="M1196 800 a74 74 0 0 1 148 0 Z" fill="#e3d6bc"/>
+    <line x1="1212" y1="806" x2="1328" y2="806" stroke="#c9b98f" stroke-width="2"/>
+    <rect x="1270" y="700" width="16" height="100" fill="#5f3c22"/>
+    <circle cx="1270" cy="700" r="20" fill="none" stroke="#d6ab5e" stroke-width="4"/>
+  </g>
+
+  <!-- balloons -->
+  <g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -16; 0 0" dur="5.2s" begin="0.4s" repeatCount="indefinite"/>
+      <ellipse cx="560" cy="300" rx="34" ry="42" fill="#d6ab5e"/>
+      <path d="M560 342 q8 18 0 30" stroke="#d6ab5e" stroke-width="3" fill="none"/>
+      <path d="M560 372 q-30 14 -58 2 M560 372 q30 14 58 2" stroke="#d6ab5e" stroke-width="2" fill="none"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -22; 0 0" dur="6.4s" begin="1.2s" repeatCount="indefinite"/>
+      <ellipse cx="1040" cy="240" rx="34" ry="42" fill="#e8e0c8"/>
+      <path d="M1040 282 q8 18 0 30" stroke="#e8e0c8" stroke-width="3" fill="none"/>
+      <path d="M1040 312 q-30 14 -58 2 M1040 312 q30 14 58 2" stroke="#e8e0c8" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+
+  <!-- bokeh lights -->
+  <g fill="#ffe9b8" opacity="0.7">
+    <circle cx="200" cy="300" r="5"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="2.6s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="200" r="4"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.1s" begin="0.7s" repeatCount="indefinite"/></circle>
+    <circle cx="460" cy="340" r="6"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="2.3s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="230" r="4"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.6s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="300" r="5"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="2.9s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="220" r="6"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="2.5s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1280" cy="330" r="4"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.3s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1420" cy="250" r="5"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="2.7s" begin="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1500" cy="380" r="4"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.8s" begin="1.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- string lights across top -->
+  <path d="M0 180 q200 40 400 0 q200 -40 400 0 q200 40 400 0 q200 -40 400 0" fill="none" stroke="#d6ab5e" stroke-width="2"/>
+  <g fill="#fff3d0">
+    <circle cx="100" cy="188" r="6"><animate attributeName="opacity" values="1;0.25;1" dur="2.2s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="190" r="6"><animate attributeName="opacity" values="1;0.25;1" dur="2.9s" begin="1.3s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="182" r="6"><animate attributeName="opacity" values="1;0.25;1" dur="2.5s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="186" r="6"><animate attributeName="opacity" values="1;0.25;1" dur="3.4s" begin="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="182" r="6"><animate attributeName="opacity" values="1;0.25;1" dur="2.3s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1100" cy="186" r="6"><animate attributeName="opacity" values="1;0.25;1" dur="3s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1300" cy="182" r="6"><animate attributeName="opacity" values="1;0.25;1" dur="2.7s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1500" cy="188" r="6"><animate attributeName="opacity" values="1;0.25;1" dur="3.2s" begin="0.4s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
