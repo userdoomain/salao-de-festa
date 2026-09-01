@@ -66,7 +66,7 @@
     var setState = function (open) {
       nav.classList.toggle("is-open", open);
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
-      toggle.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
+      toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
     };
 
     toggle.addEventListener("click", function () {
@@ -304,7 +304,7 @@
       dot.type = "button";
       dot.className = "slider__dot";
       dot.setAttribute("role", "tab");
-      dot.setAttribute("aria-label", "Depoimento " + (i + 1) + " de " + slides.length);
+      dot.setAttribute("aria-label", "Testimonial " + (i + 1) + " of " + slides.length);
       dot.addEventListener("click", function () {
         show(i);
         start();
@@ -349,9 +349,9 @@
         var message = "";
 
         if (!field.value.trim()) {
-          message = "Este campo é obrigatório.";
+          message = "This field is required.";
         } else if (field.type === "email" && !EMAIL_RE.test(field.value.trim())) {
-          message = "Informe um e-mail válido.";
+          message = "Please enter a valid email.";
         }
 
         row.classList.toggle("is-invalid", !!message);
@@ -363,7 +363,7 @@
 
       var status = $("#formStatus");
       if (!valid) {
-        status.textContent = "Revise os campos destacados.";
+        status.textContent = "Please review the highlighted fields.";
         status.className = "form-status is-error";
         firstInvalid.focus();
         return;
@@ -373,11 +373,11 @@
       var original = btn.textContent;
       btn.disabled = true;
       btn.classList.add("is-loading");
-      btn.textContent = "Enviando…";
+      btn.textContent = "Sending…";
 
       window.setTimeout(function () {
         status.textContent =
-          "Mensagem enviada com sucesso! Nossa equipe entrará em contato em até 1 dia útil.";
+          "Message sent successfully! Our team will contact you within 1 business day.";
         status.className = "form-status is-success";
         btn.disabled = false;
         btn.classList.remove("is-loading");
